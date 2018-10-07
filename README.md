@@ -10,3 +10,8 @@ http://frontendnotes.net/what-the-difference-between-object-create-and-new-keywo
 
 curry functions:
 https://stackoverflow.com/questions/2272902/how-can-i-make-var-a-add23-5-work
+
+splice() method returns the removed item(s) in an array
+slice() method returns the selected element(s) in an array, as a new array object.
+
+http://www.tothenew.com/blog/javascript-splice-vs-slice/
