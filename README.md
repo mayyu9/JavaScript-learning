@@ -15,3 +15,6 @@ splice() method returns the removed item(s) in an array
 slice() method returns the selected element(s) in an array, as a new array object.
 
 http://www.tothenew.com/blog/javascript-splice-vs-slice/
+
+Largest Sum Contiguous Subarray:
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
