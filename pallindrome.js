@@ -17,7 +17,7 @@ console.log(palindrome('12321'));
 
 //method 2:
 function pallindrome(str) {
-  if(str === str.split(''.reverse().join('')))
+  if(str === str.split('').reverse().join('')))
     return true;
 return false;
 }
