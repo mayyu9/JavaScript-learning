@@ -28,3 +28,20 @@ function mul(a,b){
 
 console.log('mul: ',mul(2)(3));
 console.log('mul1: ',mul(4,3));
+
+// currying example. currying works because of clouser
+function sum(x) {
+  return function(y) {
+    return x+y;
+  }
+}
+
+console.log(sum(5)(10))
+
+// this not an example of currying. 
+// currying is only when the function takes only one argument at a time.
+// this is concept of Partial application
+function multiply(a) {
+  return (b,c) => a*b*c
+}
+console.log(multiply(2,(4,5)));
