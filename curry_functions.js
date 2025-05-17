@@ -45,3 +45,5 @@ function multiply(a) {
   return (b,c) => a*b*c
 }
 console.log(multiply(2,(4,5)));
+
+// use cases of currying
