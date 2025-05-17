@@ -11,6 +11,9 @@
     callback
 */
 
+/*
+    Debouncing is a technique that delays the execution of a function untill a certain amount of time has passed since the last event occurence.
+*/
 function outcome(data){
     console.log("data received from server: ", data);
 }
